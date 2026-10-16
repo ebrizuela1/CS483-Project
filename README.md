@@ -55,3 +55,10 @@ Data comes from public datasets or is scraped from relevant websites.
 | W13 | Polish repo, show methodology, ensure implementation quality |
 | W14 | Slides, presentation prep and practice, final polishing |
 | W15 Sunday | Final due |
+
+## Team Process
+
+- **Model.** Kanban (Agile) with one task board (To Do, Doing, Done)
+- **Board.** GitHub Projects, linked to this repo
+- **Check in.** Once a week
+- **Code.** Work on branches and merge to `main` through pull requests
