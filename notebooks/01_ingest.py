@@ -7,7 +7,7 @@ import zipfile
 
 from pyspark.sql import functions as F
 
-from src.config import DB, RAW_DIR, get_spark
+from config import DB, RAW_DIR, get_spark
 
 spark = get_spark()
 HF = "https://huggingface.co/datasets/Zihan1004/FNSPID/resolve/main"
