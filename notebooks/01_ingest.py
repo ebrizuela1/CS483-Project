@@ -43,8 +43,8 @@ def clean_cols(df):
 
 
 prices = (
-    spark.read.options(header=True, recursiveFileLookup=True, pathGlobFilter="*.csv")
-    .csv(prices_dir)
+    spark.read.options(header=True, pathGlobFilter="*.csv")
+    .csv(f"{prices_dir}/full_history")
     .withColumn("ticker", F.regexp_replace(F.col("_metadata.file_name"), r"\.csv$", ""))
 )
 clean_cols(prices).write.mode("overwrite").saveAsTable(f"{DB}.prices_raw")
