@@ -35,3 +35,11 @@ PySpark DataFrames are lazy. Calling groupBy or filter only builds a query plan,
 
 git folder - shared copy, changes only via push and pull. iterate with the extension, merge with git
 
+
+## where to run in the web ui
+
+- data is shared. both copies read and write the same `workspace.profitable` tables and volume
+- `.bundle/CS483-Project/dev/files` is your latest local code, synced on save, private. run from here while building
+- `CS483-Project` git folder is the committed branch, shared. run from here after merge
+- ad hoc sql works from anywhere
+- do not edit in `.bundle` from the web ui, the next vscode save overwrites it, so work is deleted

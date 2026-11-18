@@ -1,5 +1,5 @@
 # Databricks notebook source
-from src.config import DB, VOLUME, get_spark
+from config import DB, VOLUME, get_spark
 
 spark = get_spark()
 spark.sql(f"CREATE SCHEMA IF NOT EXISTS {DB}")

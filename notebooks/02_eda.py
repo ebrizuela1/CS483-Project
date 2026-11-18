@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 from pyspark.sql import functions as F
 
-from src.config import DB, RAW_DIR, get_spark
+from config import DB, RAW_DIR, get_spark
 
 spark = get_spark()
 FIG = f"{RAW_DIR}/figures"
