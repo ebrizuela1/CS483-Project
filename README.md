@@ -12,8 +12,8 @@ Can a model predict stock prices or signals that produce positive returns from p
 
 ### Necessary Data
 
-- **Text.** Yahoo Finance news and company reports
-- **Numerical.** Stock prices over time (time series)
+- **Text.** Yahoo Finance news, company reports, and SEC company information
+- **Numerical.** Stock prices over time (time series) using Alpaca
 
 ### How
 
@@ -21,11 +21,11 @@ Data comes from public datasets or is scraped from relevant websites.
 
 ### Where
 
-| Source | Contents | Time Estimate |
-| --- | --- | --- |
-| FNSPID ([GitHub](https://github.com/Zdong104/FNSPID_Financial_News_Dataset), [Hugging Face](https://huggingface.co/datasets/Zihan1004/FNSPID), [arXiv](https://arxiv.org/abs/2402.06698)) | S&P 500 prices and news, 1999 to 2023 | Hours |
-| Kaggle dataset | Supplementary news and prices | Hours |
-| [sec.gov EDGAR](https://www.sec.gov/Archives/edgar/full-index/) | Filings, earnings releases, and footnotes | 1 to 2 days |
+| Source                                                                                                                                                                                    | Contents                                  | Time Estimate |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------- |
+| FNSPID ([GitHub](https://github.com/Zdong104/FNSPID_Financial_News_Dataset), [Hugging Face](https://huggingface.co/datasets/Zihan1004/FNSPID), [arXiv](https://arxiv.org/abs/2402.06698)) | S&P 500 prices and news, 1999 to 2023     | Hours         |
+| Kaggle dataset                                                                                                                                                                            | Supplementary news and prices             | Hours         |
+| [sec.gov EDGAR](https://www.sec.gov/Archives/edgar/full-index/)                                                                                                                           | Filings, earnings releases, and footnotes | 1 to 2 days   |
 
 ## Data Mining Task
 
@@ -47,14 +47,14 @@ Data comes from public datasets or is scraped from relevant websites.
 
 ## Schedule
 
-| Week | Milestone |
-| --- | --- |
-| W8 Friday (10/16) | Start |
-| W10 | Ensure data quality, collect data, test implementation and experimentation |
-| W11 Sunday | Midterm check |
-| W13 | Polish repo, show methodology, ensure implementation quality |
-| W14 | Slides, presentation prep and practice, final polishing |
-| W15 Sunday | Final due |
+| Week              | Milestone                                                                  |
+| ----------------- | -------------------------------------------------------------------------- |
+| W8 Friday (10/16) | Start                                                                      |
+| W10               | Ensure data quality, collect data, test implementation and experimentation |
+| W11 Sunday        | Midterm check                                                              |
+| W13               | Polish repo, show methodology, ensure implementation quality               |
+| W14               | Slides, presentation prep and practice, final polishing                    |
+| W15 Sunday        | Final due                                                                  |
 
 ## Team Process
 
