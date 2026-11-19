@@ -34,6 +34,7 @@ Data comes from public datasets or is scraped from relevant websites.
 - NLP features, TF-IDF on news and filings
 - MinHash and LSH duplicate handling
 - Spark MLlib to rank stocks weekly
+- Collaborative filtering to recommend stocks in portfolio
 
 ### Goals
 
